@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Itim&family=Merienda&family=Pacifico&display=swap");
+
+.projects-container {
+	width: 100vw;
+	height: 100vh;
+	background: #858ae3;
+	overflow: scroll;
+	padding-top: 50px;
+	overflow-x: hidden;
+}
+
+.projects-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding-top: 80px;
+	padding-bottom: 150px;
+}
+
+.projects-wrapper h1 {
+	font-family: "Courgette", cursive;
+	font-size: 50px;
+	color: lightcyan;
+	text-shadow: -1px -1px 0 #000, 8px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+	margin: 0;
+	text-decoration: underline;
+}
+
+.grid-container {
+	display: grid;
+	width: 70%;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 3em;
+	padding: 3em;
+	justify-content: center;
+	justify-items: center;
+}
+
+.grid-container > div {
+	transition: all 0.5s ease-in-out;
+}
+
+.grid-container > div:hover {
+	transform: scale(1.1);
+	transition: all 0.5s ease-in-out;
+}
+
+.grid-card {
+	border: 2px solid black;
+	background: #4361ee;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 320px;
+	height: auto;
+	box-shadow: 20px 20px 10px 5px rgba(0, 0, 0, 0.5);
+	width: 300px;
+}
+
+.grid-card img {
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+	height: 200px;
+}
+
+.grid-card h2 {
+	margin: 0;
+	background: white;
+	width: 100%;
+	text-align: center;
+	font-family: "Itim", cursive;
+	border: 2px solid black;
+}
+
+.grid-card h3 {
+	margin: 5px;
+	font-family: "Itim", cursive;
+}
+
+.grid-card h4 {
+	text-align: left;
+	padding: 10px;
+	margin: 0;
+	font-family: "Itim", cursive;
+}
+
+.links-container {
+	display: flex;
+	flex-direction: row;
+	gap: 4em;
+	padding: 10px;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+
+.links a {
+	font-family: "Itim", cursive;
+	text-decoration: underline;
+	outline: none;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	color: #7fdeff;
+}
+
+.links a :hover {
+	color: white;
+}
+
+.links div {
+	transform: none;
+	transition: none;
+}
+
+.links img {
+	width: 20px;
+	height: auto;
+	border-radius: 10%;
+}
+
+@media screen and (max-width: 1350px) {
+	.projects-container {
+		margin: 0;
+		padding-top: 20px;
+	}
+	.projects-wrapper {
+		padding-bottom: 100px;
+	}
+	.projects-wrapper h1 {
+		font-size: 50px;
+	}
+	.projects-container::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 875px) {
+	.projects-container {
+		margin: 0;
+		padding-top: 0;
+	}
+	.projects-wrapper {
+		padding-bottom: 60px;
+	}
+	.projects-wrapper h1 {
+		font-size: 30px;
+		text-shadow: -1px -1px 0 #000, 5px -1px 0 #000, -1px 1px 0 #000,
+			1px 1px 0 #000;
+	}
+	.projects-container::-webkit-scrollbar {
+		display: none;
+	}
+	.grid-card {
+		width: 250px;
+	}
+}
