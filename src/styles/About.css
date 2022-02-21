@@ -9,6 +9,9 @@
 	background: #b298dc;
 	overflow: auto;
 }
+.about-container::-webkit-scrollbar {
+	display: none;
+}
 
 .about-container h1 {
 	font-family: Courgette, cursive;
