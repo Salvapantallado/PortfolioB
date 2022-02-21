@@ -8,6 +8,11 @@
 	align-items: center;
 	justify-content: center;
 	background: #633294;
+	overflow: auto;
+}
+
+.home-container::-webkit-scrollbar {
+	display: none;
 }
 
 .home-container h1 {
