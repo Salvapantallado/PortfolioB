@@ -163,7 +163,7 @@ export const resumeData = {
 					tag: "Website",
 				},
 				{
-					link: "https://github.com/Salvapantallado/Portfolio",
+					link: "https://github.com/Salvapantallado/PortfolioB",
 					icon: GithubIcon,
 					tag: "Repository",
 				},
