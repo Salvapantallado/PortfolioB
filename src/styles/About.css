@@ -3,7 +3,8 @@
 .about-container {
 	width: 100vw;
 	height: 100vh;
-	display: flex;
+	display: -webkit-flex;
+        display: flex;
 	flex-direction: column;
 	align-items: center;
 	background: #b298dc;
@@ -33,6 +34,7 @@
 	}
 	
 .about-content {
+        display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -48,6 +50,7 @@
 
 .about-presentation {
 	height: 85vh;
+        display: -webkit-flex;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -63,6 +66,7 @@
 }
 
 .about-wrapper {
+        display: -webkit-flex;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -70,6 +74,7 @@
 }
 
 .languages-container {
+        display: -webkit-flex;
 	display: flex;
 	height: 100vh;
 	flex-direction: column;
@@ -79,7 +84,7 @@
 }
 
 .languages {
-	display: grid;
+    display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
@@ -91,6 +96,7 @@
 .languages img {
 	width: 150px;
 	height: auto;
+        display: -webkit-inline-flex;
 	display: inline-flex;
 	margin: 25px;
 	transition: 0.5s ease-in-out;
@@ -103,6 +109,7 @@
 
 /* Scroll animation */
 .field {
+        display: -webkit-flex;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -174,6 +181,7 @@
 	}
 
 	.languages {
+                display: -webkit-grid;
 		display: grid;
 		width: 90%;
 		grid-template-columns: repeat(auto-fit, minmax(80px, 3fr));
@@ -210,6 +218,7 @@
 	}
 
 	.languages {
+                display: -webkit-grid;
 		display: grid;
 		width: 90%;
 		grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
