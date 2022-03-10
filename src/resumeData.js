@@ -130,6 +130,26 @@ export const resumeData = {
 		},
 		{
 			tag: "React JS",
+			image: "./images/weather.png",
+			title: "Weather app project",
+			caption: "Front-End",
+			description:
+				"Development of a simple project to ensure the basics of API rest calls. Made in React, Javascript and Tailwind.",
+			links: [
+				{
+					link: "http://lm-weather-project.vercel.app/",
+					icon: LinkIcon,
+					tag: "Website",
+				},
+				{
+					link: "https://github.com/Salvapantallado/weather-app",
+					icon: GithubIcon,
+					tag: "Repository",
+				},
+			],
+		},
+		{
+			tag: "React JS",
 			image: "https://www.ventastotales.com.uy/api/new/css/login-email.gif",
 			title: "Log In template",
 			caption: "Front-End",
