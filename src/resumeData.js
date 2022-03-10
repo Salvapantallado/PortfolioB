@@ -130,7 +130,7 @@ export const resumeData = {
 		},
 		{
 			tag: "React JS",
-			image: "./images/weather.png",
+			image: "https://i.ibb.co/vY2cd3H/weather.png",
 			title: "Weather app project",
 			caption: "Front-End",
 			description:
