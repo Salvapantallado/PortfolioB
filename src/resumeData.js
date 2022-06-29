@@ -86,12 +86,12 @@ export const resumeData = {
 				"Used technologies: Node.js, Sequelize, PostgreSQL, React, Redux and pure CSS.",
 			links: [
 				{
-					link: "https://poke-app-spa.vercel.app",
+					link: "https://poke-app-v2.vercel.app",
 					icon: LinkIcon,
 					tag: "Website",
 				},
 				{
-					link: "https://github.com/Salvapantallado/PokeApp-SPA",
+					link: "https://github.com/Salvapantallado/PokeApp-v2",
 					icon: GithubIcon,
 					tag: "Repository",
 				},
@@ -130,7 +130,7 @@ export const resumeData = {
 		},
 		{
 			tag: "React JS",
-			image: "https://i.ibb.co/vY2cd3H/weather.png",
+			image: "https://i.pinimg.com/originals/e7/7a/60/e77a6068aa8bb2731e3b6d835c09c84c.gif",
 			title: "Weather app project",
 			caption: "Front-End",
 			description:
