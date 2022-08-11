@@ -11,7 +11,7 @@ export default function About(props) {
 			<Navbar pageNumber={props.pageNumber} onChange={props.onChange}/>
 			<FollowMe />
 			<div className="about-container">
-				<div className="about-wrapper">
+				<section className="about-wrapper">
 					<div className="about-presentation">
 						<h1>About me!</h1>
 						<div className="about-content">
@@ -23,7 +23,9 @@ export default function About(props) {
 				<div className="field">
 					<div className="mouse"></div>
 				</div>
-					<div className="languages-container">
+				</section>
+
+					<section className="languages-container">
 						<h1>My knowledge stack:</h1>
 						<div className="languages">
 							<img
@@ -98,8 +100,7 @@ export default function About(props) {
 								title="Tailwind"
 							/>
 						</div>
-					</div>
-				</div>
+					</section>
 			</div>
 		</div>
 	);
